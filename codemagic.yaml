@@ -93,7 +93,7 @@ workflows:
         - google_play
       vars:
         BUILD_SCRIPT: BuildAndroid
-        PACKAGE_NAME: "io.codemagic.unitysample"
+        PACKAGE_NAME: "com.AngelDogStudios.c4"
         GOOGLE_PLAY_TRACK: alpha
     scripts:
       - name: Activate Unity License
@@ -194,7 +194,7 @@ workflows:
         - google_play
       vars:
         BUILD_SCRIPT: BuildAndroid
-        PACKAGE_NAME: "io.codemagic.unitysample"
+        PACKAGE_NAME: "com.AngelDogStudios.c4"
     scripts:
       - name: Set build number and export Unity
         script: |
@@ -244,7 +244,7 @@ workflows:
       vars:
         BUILD_SCRIPT: BuildMac
         UNITY_MAC_DIR: mac
-        BUNDLE_ID: "io.codemagic.unitysample"
+        BUNDLE_ID: "com.AngelDogStudios.c4"
     scripts:
       - name: Activate Unity license
         script: | 
